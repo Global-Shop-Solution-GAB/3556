@@ -1,0 +1,30 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+F.Intrinsic.Control.If(V.Caller.hook,=,"15840")
+	V.Passed.000048.Set("Log Sheets")
+	V.Passed.000049.Set("Log Sheets Pt 1")
+F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.End
+
+
+Program.Sub.Main.End
+
+Program.Sub.Comments.Start
+${$0$}$GCG_Alloy_GUI_Script_Lbls$}$TRT$}$11/10/2015
+${$1$}$$}$$}$0$}$15840$}$$}$11/10/2015 7:08:06 PM$}$GUI populate
+${$3$}$0$}$$}$-1$}$-1$}$$}$1/1/1900$}$This is an extension of the Alloy Log Sheets. 
+
+Basically with the screens being so large on the log sheets it takes forever for the scripts to run on the populate since it insists on loading the screen before and just to change the dang value of the script labels. 
+
+attach to hook 
+15840
+scirpt 1 48
+sctip 2 49
+Program.Sub.Comments.End
+
