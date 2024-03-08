@@ -1,0 +1,20 @@
+-- Database: GLOBALASW Metadata version: 2 Exported: Aug 16, 2019
+-- Begin Tables
+SET LEGACYTYPESALLOWED = ON;
+-- Begin Multi-Line Statement
+CREATE TABLE "GCG_STRESS_REL_VALS" USING 'GCG_STRESS_REL_VALS.mkd' PAGESIZE=4096 (
+ "JOB" CHAR(6),
+ "SUFFIX" CHAR(3),
+ "SERIAL" CHAR(30),
+ "TCF" CHAR(10),
+ "TC_CON" CHAR(4),
+ "POINT_ID" CHAR(10),
+ "SCREEN_ID" CHAR(50),
+ "EMPL_LAST_CHANGE" CHAR(20),
+ "DATE_LAST_CHANGE" CHAR(10),
+ "TC_Primary" CHAR(4),
+ "TC_Secondary" CHAR(4),
+ "SEQ" CHAR(6) );
+-- End Multi-Line Statement
+SET LEGACYTYPESALLOWED = OFF;
+-- End Tables
